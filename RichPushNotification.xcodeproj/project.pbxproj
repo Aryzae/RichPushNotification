@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D7C4FE270FAC5094EF38FBD /* Pods_RichPushNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4C8C187DAAF80072AF905B /* Pods_RichPushNotification.framework */; };
 		9AE8AE5F20C12B5700779F56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE8AE5E20C12B5700779F56 /* AppDelegate.swift */; };
 		9AE8AE6120C12B5700779F56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE8AE6020C12B5700779F56 /* ViewController.swift */; };
 		9AE8AE6420C12B5700779F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE8AE6220C12B5700779F56 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		9AE8AE7420C12B5900779F56 /* RichPushNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE8AE7320C12B5900779F56 /* RichPushNotificationTests.swift */; };
 		9AE8AE7F20C12B5900779F56 /* RichPushNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE8AE7E20C12B5900779F56 /* RichPushNotificationUITests.swift */; };
 		9AE8AE8D20C1348D00779F56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AE8AE8C20C1348D00779F56 /* GoogleService-Info.plist */; };
+		9FEA66206239FF8DCC0E8AEE /* Pods_RichPushNotificationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DBB91EA25D9625EA92FEE9 /* Pods_RichPushNotificationTests.framework */; };
+		D145BE49BE2945BB16A5CA9D /* Pods_RichPushNotificationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71FD280478C35119B3D46A6C /* Pods_RichPushNotificationUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40E5EED0EACC416F18ECC515 /* Pods-RichPushNotificationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichPushNotificationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichPushNotificationTests/Pods-RichPushNotificationTests.release.xcconfig"; sourceTree = "<group>"; };
+		71FD280478C35119B3D46A6C /* Pods_RichPushNotificationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichPushNotificationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E6438ACA06F00F7A1D6B72 /* Pods-RichPushNotificationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichPushNotificationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichPushNotificationTests/Pods-RichPushNotificationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F60B621843E118014FE9A01 /* Pods-RichPushNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichPushNotification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichPushNotification/Pods-RichPushNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		98DBB91EA25D9625EA92FEE9 /* Pods_RichPushNotificationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichPushNotificationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE8AE5B20C12B5700779F56 /* RichPushNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichPushNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE8AE5E20C12B5700779F56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AE8AE6020C12B5700779F56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		9AE8AE7E20C12B5900779F56 /* RichPushNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichPushNotificationUITests.swift; sourceTree = "<group>"; };
 		9AE8AE8020C12B5900779F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AE8AE8C20C1348D00779F56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC4C8C187DAAF80072AF905B /* Pods_RichPushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichPushNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA88F2D70B104C9E5BBA59F /* Pods-RichPushNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichPushNotification.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichPushNotification/Pods-RichPushNotification.release.xcconfig"; sourceTree = "<group>"; };
+		BD780E09502AE60093B48D8E /* Pods-RichPushNotificationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichPushNotificationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichPushNotificationUITests/Pods-RichPushNotificationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7E99693E83B47BD7E4D84EC /* Pods-RichPushNotificationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichPushNotificationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichPushNotificationUITests/Pods-RichPushNotificationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D7C4FE270FAC5094EF38FBD /* Pods_RichPushNotification.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEA66206239FF8DCC0E8AEE /* Pods_RichPushNotificationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D145BE49BE2945BB16A5CA9D /* Pods_RichPushNotificationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45890965261B66886E77155C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F60B621843E118014FE9A01 /* Pods-RichPushNotification.debug.xcconfig */,
+				ACA88F2D70B104C9E5BBA59F /* Pods-RichPushNotification.release.xcconfig */,
+				76E6438ACA06F00F7A1D6B72 /* Pods-RichPushNotificationTests.debug.xcconfig */,
+				40E5EED0EACC416F18ECC515 /* Pods-RichPushNotificationTests.release.xcconfig */,
+				D7E99693E83B47BD7E4D84EC /* Pods-RichPushNotificationUITests.debug.xcconfig */,
+				BD780E09502AE60093B48D8E /* Pods-RichPushNotificationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9AE8AE5220C12B5700779F56 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				9AE8AE7220C12B5900779F56 /* RichPushNotificationTests */,
 				9AE8AE7D20C12B5900779F56 /* RichPushNotificationUITests */,
 				9AE8AE5C20C12B5700779F56 /* Products */,
+				45890965261B66886E77155C /* Pods */,
+				C262E0943AAB0A52A8E91337 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = RichPushNotificationUITests;
 			sourceTree = "<group>";
 		};
+		C262E0943AAB0A52A8E91337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC4C8C187DAAF80072AF905B /* Pods_RichPushNotification.framework */,
+				98DBB91EA25D9625EA92FEE9 /* Pods_RichPushNotificationTests.framework */,
+				71FD280478C35119B3D46A6C /* Pods_RichPushNotificationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AE8AE8320C12B5900779F56 /* Build configuration list for PBXNativeTarget "RichPushNotification" */;
 			buildPhases = (
+				FB028A4B09AED3F813BDF3C7 /* [CP] Check Pods Manifest.lock */,
 				9AE8AE5720C12B5700779F56 /* Sources */,
 				9AE8AE5820C12B5700779F56 /* Frameworks */,
 				9AE8AE5920C12B5700779F56 /* Resources */,
+				6668A8FC7137F4697DB8228A /* [CP] Embed Pods Frameworks */,
+				AC09DF1CD655C0CE19E4B9F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AE8AE8620C12B5900779F56 /* Build configuration list for PBXNativeTarget "RichPushNotificationTests" */;
 			buildPhases = (
+				369D61DC062F3EBA05383BE6 /* [CP] Check Pods Manifest.lock */,
 				9AE8AE6B20C12B5900779F56 /* Sources */,
 				9AE8AE6C20C12B5900779F56 /* Frameworks */,
 				9AE8AE6D20C12B5900779F56 /* Resources */,
+				C7A82583B683DBE7B05F5BE2 /* [CP] Embed Pods Frameworks */,
+				380DA8828F2F59191E539989 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AE8AE8920C12B5900779F56 /* Build configuration list for PBXNativeTarget "RichPushNotificationUITests" */;
 			buildPhases = (
+				F5B01EE731A4BBBE9665D4E7 /* [CP] Check Pods Manifest.lock */,
 				9AE8AE7620C12B5900779F56 /* Sources */,
 				9AE8AE7720C12B5900779F56 /* Frameworks */,
 				9AE8AE7820C12B5900779F56 /* Resources */,
+				86D1747F7DF5CA6CF6EC12DD /* [CP] Embed Pods Frameworks */,
+				449914F5EF61763750768B3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +303,160 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		369D61DC062F3EBA05383BE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RichPushNotificationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		380DA8828F2F59191E539989 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichPushNotificationTests/Pods-RichPushNotificationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		449914F5EF61763750768B3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichPushNotificationUITests/Pods-RichPushNotificationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6668A8FC7137F4697DB8228A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RichPushNotification/Pods-RichPushNotification-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichPushNotification/Pods-RichPushNotification-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86D1747F7DF5CA6CF6EC12DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichPushNotificationUITests/Pods-RichPushNotificationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC09DF1CD655C0CE19E4B9F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichPushNotification/Pods-RichPushNotification-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A82583B683DBE7B05F5BE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichPushNotificationTests/Pods-RichPushNotificationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5B01EE731A4BBBE9665D4E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RichPushNotificationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB028A4B09AED3F813BDF3C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RichPushNotification-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AE8AE5720C12B5700779F56 /* Sources */ = {
@@ -432,16 +635,14 @@
 		};
 		9AE8AE8420C12B5900779F56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F60B621843E118014FE9A01 /* Pods-RichPushNotification.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U38WFWB5D6;
 				INFOPLIST_FILE = RichPushNotification/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.aryzae.RichPushNotificationTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -452,16 +653,14 @@
 		};
 		9AE8AE8520C12B5900779F56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA88F2D70B104C9E5BBA59F /* Pods-RichPushNotification.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U38WFWB5D6;
 				INFOPLIST_FILE = RichPushNotification/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.aryzae.RichPushNotificationTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -472,17 +671,14 @@
 		};
 		9AE8AE8720C12B5900779F56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E6438ACA06F00F7A1D6B72 /* Pods-RichPushNotificationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJM7HZJ5E6;
 				INFOPLIST_FILE = RichPushNotificationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.aryzae.RichPushNotificationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -493,17 +689,14 @@
 		};
 		9AE8AE8820C12B5900779F56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E5EED0EACC416F18ECC515 /* Pods-RichPushNotificationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJM7HZJ5E6;
 				INFOPLIST_FILE = RichPushNotificationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.aryzae.RichPushNotificationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -514,16 +707,13 @@
 		};
 		9AE8AE8A20C12B5900779F56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E99693E83B47BD7E4D84EC /* Pods-RichPushNotificationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJM7HZJ5E6;
 				INFOPLIST_FILE = RichPushNotificationUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.aryzae.RichPushNotificationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -534,16 +724,13 @@
 		};
 		9AE8AE8B20C12B5900779F56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD780E09502AE60093B48D8E /* Pods-RichPushNotificationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJM7HZJ5E6;
 				INFOPLIST_FILE = RichPushNotificationUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.aryzae.RichPushNotificationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
