@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Firebase
 import UserNotifications
 
 @UIApplicationMain
@@ -17,14 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        // Firebaseの初期設定
-        FirebaseApp.configure()
 
         // For iOS 10 display notification (sent via APNS)
         UNUserNotificationCenter.current().delegate = self
 
+        let category = UNNotificationCategory.init(identifier: "myNotificationCategory", actions: [], intentIdentifiers: [], options: [])
         let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
         UNUserNotificationCenter.current().requestAuthorization(options: authOptions) {_, _ in }
+        UNUserNotificationCenter.current().setNotificationCategories([category])
 
         application.registerForRemoteNotifications()
 
@@ -54,13 +53,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        Messaging.messaging().apnsToken = deviceToken
     }
 }
 
 extension AppDelegate: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-        print(response)
+        print(response.notification)
+        
         completionHandler()
     }
 }
